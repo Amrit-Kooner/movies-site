@@ -296,6 +296,8 @@ button {
 .carousel-card-wrapper.genre {
     display: flex;
     gap: 25px;
+    align-items: center;
+    height: 300px;
 }
 
 .carousel-genre-card {
@@ -311,6 +313,11 @@ button {
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
+}
+
+.carousel-genre-card:hover{
+    background-color: var(--clr-2);
+    border: var(--clr-1);
 }
 
 .carousel-genre-card .card-genre-icon {
