@@ -295,7 +295,7 @@ button {
 
 .carousel-card-wrapper.genre {
     display: flex;
-    justify-content: space-between;
+    gap: 25px;
 }
 
 .carousel-genre-card {
